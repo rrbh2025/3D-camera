@@ -1,0 +1,26 @@
+# Local Python/runtime artifacts
+runtime/
+**/__pycache__/
+*.py[cod]
+*.pyd
+
+# Logs, temporary exports, and local archives
+logs/
+*.log
+*.tar.gz
+*.zip
+*.tmp
+
+# Captured RGB-D/IR/point-cloud data must stay outside this public repository
+captures/
+data/
+F:/
+Gemini2L_Captures/
+
+# Local IDE and OS files
+.venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
